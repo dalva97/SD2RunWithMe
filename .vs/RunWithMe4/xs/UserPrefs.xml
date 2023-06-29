@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{2A397BB4-E543-450E-BFD5-34A98B342644}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RunWithMe4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Miles.cs">
+    <Files>
+      <File FileName="Readme.md" />
+      <File FileName="Program.cs" />
+      <File FileName="Run.cs" />
+      <File FileName="Holiday.cs" />
+      <File FileName="Miles.cs" Line="23" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RunWithMe4" expanded="True">
+            <Node name="RunWithMe4" expanded="True">
+              <Node name="Miles.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

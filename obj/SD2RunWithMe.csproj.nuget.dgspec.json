@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/RunWithMe4.csproj": {}
+    "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/SD2RunWithMe.csproj": {}
   },
   "projects": {
-    "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/RunWithMe4.csproj": {
+    "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/SD2RunWithMe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/RunWithMe4.csproj",
-        "projectName": "RunWithMe4",
-        "projectPath": "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/RunWithMe4.csproj",
+        "projectUniqueName": "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/SD2RunWithMe.csproj",
+        "projectName": "SD2RunWithMe",
+        "projectPath": "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/SD2RunWithMe.csproj",
         "packagesPath": "/Users/DulceAlvarado/.nuget/packages/",
         "outputPath": "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/obj/",
         "projectStyle": "PackageReference",
