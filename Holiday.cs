@@ -4,13 +4,13 @@ namespace RunwithMe
 {
     public class Holiday
     {
-        private List<DateTime> holidayList = new List<DateTime>()
+        private List<DateTime> holidayList { get; set; } = new List<DateTime>()
         {
             new DateTime(2023,1,1),
             new DateTime(2023,4,1),
             new DateTime(2023,12,25),
             new DateTime(2023,2,14),
-        };
+};
 
         public bool IsTodayAHoliday()
         {
