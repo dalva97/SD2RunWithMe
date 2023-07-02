@@ -348,6 +348,79 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.PowerShell.Native/7.3.2": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-arm/native/libpsl-native.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/native/libpsl-native.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-musl-x64/native/libpsl-native.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/libmi.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libpsl-native.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libpsrpclient.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libmi.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libpsl-native.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/libpsrpclient.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-arm/native/PowerShell.Core.Instrumentation.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm/native/pwrshplugin.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-arm64/native/PowerShell.Core.Instrumentation.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-arm64/native/pwrshplugin.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/PowerShell.Core.Instrumentation.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/pwrshplugin.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/PowerShell.Core.Instrumentation.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/pwrshplugin.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Mono.TextTemplating/2.2.1": {
         "type": "package",
         "dependencies": {
@@ -1047,6 +1120,38 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.PowerShell.Native/7.3.2": {
+      "sha512": "MlLhJgzrUlxijTKJ19Eht++iGTUdg/F1jSbqwzjnc2Q8XStkUYNh8/81aUcNxWcg+0z1Yj/iUjW7czgWUYdV6Q==",
+      "type": "package",
+      "path": "microsoft.powershell.native/7.3.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PSRP_version.txt",
+        "Powershell_black_64.png",
+        "_manifest/spdx_2.2/manifest.spdx.json",
+        "_manifest/spdx_2.2/manifest.spdx.json.sha256",
+        "microsoft.powershell.native.7.3.2.nupkg.sha512",
+        "microsoft.powershell.native.nuspec",
+        "runtimes/linux-arm/native/libpsl-native.so",
+        "runtimes/linux-arm64/native/libpsl-native.so",
+        "runtimes/linux-musl-x64/native/libpsl-native.so",
+        "runtimes/linux-x64/native/libmi.so",
+        "runtimes/linux-x64/native/libpsl-native.so",
+        "runtimes/linux-x64/native/libpsrpclient.so",
+        "runtimes/osx/native/libmi.dylib",
+        "runtimes/osx/native/libpsl-native.dylib",
+        "runtimes/osx/native/libpsrpclient.dylib",
+        "runtimes/win-arm/native/PowerShell.Core.Instrumentation.dll",
+        "runtimes/win-arm/native/pwrshplugin.dll",
+        "runtimes/win-arm64/native/PowerShell.Core.Instrumentation.dll",
+        "runtimes/win-arm64/native/pwrshplugin.dll",
+        "runtimes/win-x64/native/PowerShell.Core.Instrumentation.dll",
+        "runtimes/win-x64/native/pwrshplugin.dll",
+        "runtimes/win-x86/native/PowerShell.Core.Instrumentation.dll",
+        "runtimes/win-x86/native/pwrshplugin.dll"
+      ]
+    },
     "Mono.TextTemplating/2.2.1": {
       "sha512": "KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "type": "package",
@@ -1298,8 +1403,10 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.8",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.8",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.8",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.8"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.8",
+      "Microsoft.PowerShell.Native >= 7.3.2"
     ]
   },
   "packageFolders": {
@@ -1343,6 +1450,12 @@
             "target": "Package",
             "version": "[7.0.8, )"
           },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.8, )"
+          },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[7.0.8, )"
@@ -1352,6 +1465,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.8, )"
+          },
+          "Microsoft.PowerShell.Native": {
+            "target": "Package",
+            "version": "[7.3.2, )"
           }
         },
         "imports": [

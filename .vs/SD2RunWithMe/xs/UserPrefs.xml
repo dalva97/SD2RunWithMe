@@ -1,29 +1,30 @@
 ﻿<Properties StartupConfiguration="{2A397BB4-E543-450E-BFD5-34A98B342644}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Miles.cs">
+  <MonoDevelop.Ide.ItemProperties.SD2RunWithMe PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HolidayDBcontext.cs">
     <Files>
       <File FileName="Readme.md" Line="1" Column="1" />
-      <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Run.cs" Line="1" Column="1" />
-      <File FileName="Holiday.cs" Line="1" Column="1" />
-      <File FileName="Miles.cs" Line="3" Column="20" />
+      <File FileName="Program.cs" Line="6" Column="11" />
+      <File FileName="Run.cs" Line="3" Column="20" />
+      <File FileName="Holiday.cs" Line="20" Column="9" />
+      <File FileName="HolidayDBcontext.cs" Line="26" Column="1" />
+      <File FileName="Miles.cs" Line="6" Column="7" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SD2RunWithMe" expanded="True">
             <Node name="SD2RunWithMe" expanded="True">
-              <Node name="Miles.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.SD2RunWithMe PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

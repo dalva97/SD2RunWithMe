@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G/0Gwv+yRYCtmClp1QtoJ+Vayh5JXaPSWqtqIGIuvwnliBKHZy0RqOS9dsq+9L4yjG0DIuLWRR2FjVX0OclIcw==",
+  "dgSpecHash": "khHV78HwGZUoico02Q61/JFwF99ILpUUeswadY+wf9XKZVFWexF9/pK//5DxrQO8yKfsJLrnNmMipe5LP/OsmA==",
   "success": true,
   "projectFilePath": "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/SD2RunWithMe.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "/Users/DulceAlvarado/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "/Users/DulceAlvarado/.nuget/packages/microsoft.powershell.native/7.3.2/microsoft.powershell.native.7.3.2.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.4/sqlitepclraw.bundle_e_sqlite3.2.1.4.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/sqlitepclraw.core/2.1.4/sqlitepclraw.core.2.1.4.nupkg.sha512",

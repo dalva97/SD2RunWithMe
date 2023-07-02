@@ -4,11 +4,11 @@ using RunwithMe;
 
 namespace RunWithMe
 {
-	public class HolidayDBContext : DbContext
-	{
-		public DbSet<Holiday> Holidays { get; set }
-		
-		public string? DbPath { get; }
+    public class HolidayDBContext : DbContext
+    {
+        public DbSet<Holiday> Holidays { get; set }
+
+        public string DbPath { get; }
 
         public HolidayDBContext()
         {
@@ -21,5 +21,6 @@ namespace RunWithMe
             => options.UseSqlite($"Data Source={DbPath}");
     }
 }
+
 
 

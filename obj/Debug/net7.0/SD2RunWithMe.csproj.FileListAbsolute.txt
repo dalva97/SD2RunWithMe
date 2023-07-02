@@ -1,0 +1,5 @@
+/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/obj/Debug/net7.0/SD2RunWithMe.csproj.AssemblyReference.cache
+/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/obj/Debug/net7.0/SD2RunWithMe.GeneratedMSBuildEditorConfig.editorconfig
+/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/obj/Debug/net7.0/SD2RunWithMe.AssemblyInfoInputs.cache
+/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/obj/Debug/net7.0/SD2RunWithMe.AssemblyInfo.cs
+/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/obj/Debug/net7.0/SD2RunWithMe.csproj.CoreCompileInputs.cache
