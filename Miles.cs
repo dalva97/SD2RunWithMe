@@ -12,14 +12,8 @@ namespace RunWithMe
             Console.WriteLine("Data passed: " + this.data);
         }
     }
-
-    class Program
-    {
-        static void Main()
-        { 
-           Miles<int> milesran = new Miles<int>(23);
-        }
-    }
+        
+    
 }
 
 

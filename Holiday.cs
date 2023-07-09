@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace RunwithMe
+namespace RunWithMe
 {
     public class Holiday
     {
-        private List<DateTime> holidayList { get; set; } = new List<DateTime>()
+        public List<DateTime> holidayList { get; set; } = new List<DateTime>()
         {
             new DateTime(2023,1,1),
             new DateTime(2023,4,1),

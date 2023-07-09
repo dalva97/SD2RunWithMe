@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RunwithMe
+namespace RunWithMe
 {
     public class Run
     {

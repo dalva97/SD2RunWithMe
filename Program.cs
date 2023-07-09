@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System;
+using RunWithMe;
 
-namespace RunwithMe
+namespace RunWithMe
 {
     internal class Program
     {
@@ -25,7 +26,7 @@ namespace RunwithMe
         {
             var responseDidTheyRun = new Char();
             var run = new Run();
-
+            
 
             try
             {
@@ -69,7 +70,7 @@ namespace RunwithMe
                 Console.WriteLine("How many additional miles did you run? (or press e to exit)");
 
                 var milesInput = Console.ReadLine();
-                if (milesInput.ToUpper() == "E")
+                if (milesInput?.ToUpper() == "E")
                 {
                     return;
                 }

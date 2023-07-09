@@ -1,12 +1,12 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using RunwithMe;
+using RunWithMe;
 
 namespace RunWithMe
 {
     public class HolidayDBContext : DbContext
     {
-        public DbSet<Holiday> Holidays { get; set }
+        public DbSet<Holiday> Holidays { get; set; }
 
         public string DbPath { get; }
 
@@ -14,13 +14,14 @@ namespace RunWithMe
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
-            DbPath = System.IO.Path.Join(path, "blogging.db");
+            DbPath = System.IO.Path.Join(path, "HolidayDB.db");
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
             => options.UseSqlite($"Data Source={DbPath}");
     }
 }
+
 
 
 
