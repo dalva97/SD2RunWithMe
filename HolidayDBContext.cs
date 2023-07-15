@@ -6,7 +6,7 @@ namespace RunWithMe
 {
     public class HolidayDBContext : DbContext
     {
-        public DbSet<Holiday> Holidays { get; set; }
+        public DbSet<Holiday> Holiday { get; set; }
 
         public string DbPath { get; }
 
@@ -18,7 +18,7 @@ namespace RunWithMe
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlite($"Data Source={DbPath}");
+            => options.UseSqlite($"Filename={DbPath}");
     }
 }
 
