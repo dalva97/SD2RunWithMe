@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "dUTkg3NCNfcrmENGarqUWzhCZlkWOVXes9uIMOQ668mMWl0eeBB92Clk08YqhCu0S2K0JzpjS987Az8rSE1apg==",
-  "success": false,
+  "dgSpecHash": "ojKuV209rvylj4i1Xd+xuAzxaIaYMXVy/h5NKfGYoHtdPoK5lqM9JM+O3C1TnzGPCs4F+lO3sKtsOvBNGyRmoQ==",
+  "success": true,
   "projectFilePath": "/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/SD2RunWithMe.csproj",
   "expectedPackageFiles": [
     "/Users/DulceAlvarado/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/microsoft.data.sqlite.core/7.0.8/microsoft.data.sqlite.core.7.0.8.nupkg.sha512",
-    "/Users/DulceAlvarado/.nuget/packages/microsoft.entityframeworkcore/7.0.8/microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
-    "/Users/DulceAlvarado/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.8/microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
-    "/Users/DulceAlvarado/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.8/microsoft.entityframeworkcore.analyzers.7.0.8.nupkg.sha512",
+    "/Users/DulceAlvarado/.nuget/packages/microsoft.entityframeworkcore/7.0.9/microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
+    "/Users/DulceAlvarado/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.9/microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
+    "/Users/DulceAlvarado/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.9/microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/microsoft.entityframeworkcore.design/7.0.9/microsoft.entityframeworkcore.design.7.0.9.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.9/microsoft.entityframeworkcore.relational.7.0.9.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/microsoft.entityframeworkcore.sqlite/7.0.8/microsoft.entityframeworkcore.sqlite.7.0.8.nupkg.sha512",
@@ -35,15 +35,5 @@
     "/Users/DulceAlvarado/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/Users/DulceAlvarado/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Warning As Error: Detected package downgrade: Microsoft.EntityFrameworkCore from 7.0.9 to 7.0.8. Reference the package directly from the project to select a different version. \n SD2RunWithMe -> Microsoft.EntityFrameworkCore.Design 7.0.9 -> Microsoft.EntityFrameworkCore.Relational 7.0.9 -> Microsoft.EntityFrameworkCore (>= 7.0.9) \n SD2RunWithMe -> Microsoft.EntityFrameworkCore (>= 7.0.8)",
-      "libraryId": "Microsoft.EntityFrameworkCore",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

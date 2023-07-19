@@ -60,7 +60,7 @@ namespace RunWithMe
             if (run.Ran == false) { return; }
 
             var holiday = new Holiday();
-            var istodayaholiday = holiday.IsTodayAHoliday();
+            var istodayaholiday = true;
             decimal distance = istodayaholiday ? 1 : 10;
             while (run.Distance < distance )
             {

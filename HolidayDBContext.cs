@@ -6,7 +6,7 @@ namespace RunWithMe
 {
     public class HolidayDBContext : DbContext
     {
-        public DbSet<Holiday> Holiday { get; set; }
+        public DbSet<Holiday> Holidays { get; set; }
 
         public string DbPath { get; }
 
