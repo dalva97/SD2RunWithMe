@@ -33,6 +33,26 @@ namespace SD2RunWithMe.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Holidays");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("8a6138ba-89e4-4249-88d3-65c3809bfa8e"),
+                            Date = new DateTime(2023, 7, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Fourth of July"
+                        },
+                        new
+                        {
+                            Id = new Guid("edf6fdb9-86ed-4284-9085-a11370c58f6c"),
+                            Date = new DateTime(2023, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Christmas Day"
+                        },
+                        new
+                        {
+                            Id = new Guid("279df99d-26bb-48f2-bbdc-63a609691d96"),
+                            Date = new DateTime(2023, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "April Fools"
+                        });
                 });
 #pragma warning restore 612, 618
         }

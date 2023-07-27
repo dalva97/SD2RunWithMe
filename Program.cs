@@ -60,7 +60,12 @@ namespace RunWithMe
             if (run.Ran == false) { return; }
 
             var holiday = new Holiday();
-            var istodayaholiday = true;
+
+            var holidayContext = new HolidayDBContext();
+
+            var holidays = holidayContext.Holidays.ToList();
+
+            var istodayaholiday = holidays.Any(h => h.Date.Date == DateTime.Now.Date);
             decimal distance = istodayaholiday ? 1 : 10;
             while (run.Distance < distance )
             {
