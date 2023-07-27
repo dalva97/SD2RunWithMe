@@ -22,7 +22,7 @@ namespace RunWithMe
             Console.ReadKey();
         }
 
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             var responseDidTheyRun = new Char();
             var run = new Run();
@@ -63,7 +63,7 @@ namespace RunWithMe
 
             var holidayContext = new HolidayDBContext();
 
-            var holidays = holidayContext.Holidays.ToList();
+            var holidays = await holidayContext.Holidays.FromSql($"SELECT * FROM Holidays").ToListAsync();
 
             var istodayaholiday = holidays.Any(h => h.Date.Date == DateTime.Now.Date);
             decimal distance = istodayaholiday ? 1 : 10;
