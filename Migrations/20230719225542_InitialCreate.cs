@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace SD2RunWithMe.Migrations
+namespace RunWithMe.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

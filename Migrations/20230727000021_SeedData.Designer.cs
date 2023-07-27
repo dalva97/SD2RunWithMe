@@ -8,7 +8,7 @@ using RunWithMe;
 
 #nullable disable
 
-namespace SD2RunWithMe.Migrations
+namespace RunWithMe.Migrations
 {
     [DbContext(typeof(HolidayDBContext))]
     [Migration("20230727000021_SeedData")]

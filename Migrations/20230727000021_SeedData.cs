@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace SD2RunWithMe.Migrations
+namespace RunWithMe.Migrations
 {
     /// <inheritdoc />
     public partial class SeedData : Migration
