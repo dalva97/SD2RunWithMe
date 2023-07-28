@@ -3,18 +3,17 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.SD2RunWithMe PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Migrations/20230719225542_InitialCreate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Readme.md">
     <Files>
-      <File FileName="Readme.md" Line="5" Column="70" />
-      <File FileName="Program.cs" Line="70" Column="45" />
-      <File FileName="Run.cs" Line="3" Column="15" />
-      <File FileName="Miles.cs" Line="14" Column="6" />
-      <File FileName="Holiday.cs" Line="12" Column="5" />
-      <File FileName="HolidayDBContext.cs" Line="46" Column="3" />
-      <File FileName="Migrations/20230719225542_InitialCreate.cs" Line="11" Column="27" />
-      <File FileName="Migrations/20230727000021_SeedData.cs" Line="8" Column="11" />
-      <File FileName="Migrations/20230719225542_InitialCreate.Designer.cs" Line="18" Column="33" />
-      <File FileName="Migrations/20230727000021_SeedData.Designer.cs" Line="1" Column="1" />
+      <File FileName="Readme.md" Line="9" Column="40" />
+      <File FileName="Program.cs" />
+      <File FileName="Run.cs" />
+      <File FileName="Holiday.cs" />
+      <File FileName="HolidayDBContext.cs" />
+      <File FileName="Migrations/20230719225542_InitialCreate.cs" />
+      <File FileName="Migrations/20230727000021_SeedData.cs" />
+      <File FileName="Migrations/20230719225542_InitialCreate.Designer.cs" />
+      <File FileName="Migrations/20230727000021_SeedData.Designer.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,9 +21,8 @@
           <Node name="SD2RunWithMe" expanded="True">
             <Node name="SD2RunWithMe" expanded="True">
               <Node name="Dependencies" expanded="True" />
-              <Node name="Migrations" expanded="True">
-                <Node name="20230719225542_InitialCreate.cs" selected="True" />
-              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Readme.md" selected="True" />
             </Node>
           </Node>
         </State>
@@ -35,8 +33,6 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/DulceAlvarado/Desktop/Repos/SD2RunWithMe/SD2RunWithMe/Program.cs" relfile="Program.cs" line="66" column="13" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>
